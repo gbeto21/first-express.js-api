@@ -4,6 +4,7 @@
   "description": "Project from the course: \"Complete Node.js Developer in 2022: Zero to Mastery\".",
   "main": "index.js",
   "scripts": {
+    "watch": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/gbeto21/first-express.js-api#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
